@@ -1,0 +1,11 @@
+export const iconSearch = <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+
+export const iconBell = <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 15H17L15.5951 13.5951C15.2141 13.2141 15 12.6973 15 12.1585V9C15 6.38757 13.3304 4.16509 11 3.34142V3C11 1.89543 10.1046 1 9 1C7.89543 1 7 1.89543 7 3V3.34142C4.66962 4.16509 3 6.38757 3 9V12.1585C3 12.6973 2.78595 13.2141 2.40493 13.5951L1 15H6M12 15V16C12 17.6569 10.6569 19 9 19C7.34315 19 6 17.6569 6 16V15M12 15H6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+
+export const iconArrow = <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.72473 6.64137C3.94661 6.41948 4.29383 6.39931 4.53851 6.58086L4.60861 6.64137L10 12.0325L15.3914 6.64137C15.6133 6.41948 15.9605 6.39931 16.2052 6.58086L16.2753 6.64137C16.4972 6.86326 16.5173 7.21048 16.3358 7.45516L16.2753 7.52525L10.4419 13.3586C10.2201 13.5805 9.87283 13.6006 9.62816 13.4191L9.55806 13.3586L3.72473 7.52525C3.48065 7.28118 3.48065 6.88545 3.72473 6.64137Z" fill="#F9F9F9"/>
+</svg>

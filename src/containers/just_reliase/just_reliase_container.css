@@ -1,0 +1,89 @@
+.just_reliase_container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    max-width: 1352px;
+    width: 100%;
+}
+.just_reliase_component {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 0px 0px 45px 22px;
+    gap: 41px;
+    width: 1350px;
+    overflow: hidden;
+}
+
+.just_reliase_component_carousel {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.just_reliase_component_item {
+    background-image: url('../../assets/images/Image\ \(5\).png');
+    width: 280px;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.just_reliase_component_item:nth-child(2) {
+    background-image: url('../../assets/images/Image\ \(6\).png');
+}
+
+.just_reliase_component_item:nth-child(3) {
+    background-image: url('../../assets/images/Image\ \(7\).png');
+}
+
+.just_reliase_component_item:nth-child(4) {
+    background-image: url('../../assets/images/Image\ \(8\).png');
+}
+
+.just_reliase_component_item:last-child {
+    background-image: url('../../assets/images/Image\ \(9\).png');
+}
+
+.just_reliase_component_h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.005em;
+    color: #F9F9F9;
+}
+
+.just_reliase_component_item_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 6px 19px;
+    gap: 4px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 78.02%);
+    border-radius: 0px 0px 16px 16px;
+    width: 100%;
+    overflow: hidden;
+}
+.just_reliase_component_item_desc:nth-child(2){
+    padding: 9px 30px !important; 
+}
+
+.just_reliase_component_item_desc_title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #F9F9F9;
+}

@@ -1,0 +1,62 @@
+.movie-information-component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.movie-component_stories {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    word-spacing: -0.2px;
+}
+
+.movie-component_stories_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+}
+
+.movie-component_stories_description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #9CA4AB;
+}
+
+.movie-component_stories_description span {
+    color: #00925D;
+}
+
+.movie-component_topCats{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.movie-component_topCats_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+}
+
+.movie-component_topCats_carousel{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    overflow: hidden;
+}

@@ -1,0 +1,8 @@
+.continue-watching_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1297px;
+    margin: 0 auto;
+    height: 430px;
+}

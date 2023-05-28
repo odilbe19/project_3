@@ -1,0 +1,15 @@
+.hero_container{
+    background-image: url('../../assets/images/Group\ 504.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 648px;
+    background-position: center;
+    object-position: left;
+    margin: 0 auto;
+    max-width: 1352px;
+    width: 100%;
+}
+
+.hero_component_navbar_container{
+    padding: 3px 11px;
+}

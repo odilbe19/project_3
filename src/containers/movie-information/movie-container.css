@@ -1,0 +1,10 @@
+.movie-information-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 33px 40px;
+    margin: 0 auto;
+    width: 1352px;
+    width: 100%;
+}

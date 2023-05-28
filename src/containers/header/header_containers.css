@@ -1,0 +1,15 @@
+.header_containers{
+    background-image: url('../../assets/images/Mandalorian.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 654px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1352px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    gap: 68px;
+}
+

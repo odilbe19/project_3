@@ -1,0 +1,22 @@
+.hero-main-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 10px;
+    max-width: 152px;
+    height: 46px;
+    border: 1px solid #28262D;
+    border-radius: 10px;
+    background: #0D0C0F;
+}
+
+.hero-main-btn span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}

@@ -1,0 +1,37 @@
+.your_watchlist_component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 1315px;
+    overflow: hidden;
+}
+
+.your_watchlist_component_title_h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.005em;
+    color: #F9F9F9;
+}
+
+.your_watchlist_component_list_item_title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #F9F9F9;
+    padding-top: 7px;
+    padding-bottom: 12px;
+}
+
+.your_watchlist_component_list{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}

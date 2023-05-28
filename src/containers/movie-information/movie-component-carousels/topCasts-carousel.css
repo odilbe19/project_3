@@ -1,0 +1,43 @@
+.topCasts-carousel {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+}
+
+.topCasts-carousel-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.topCasts-carousel_img img {
+    width: 48px;
+    height: 48px;
+}
+
+.topCasts-carousel_actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.topCasts-carousel_actions_fullName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #F9F9F9;
+}
+
+.topCasts-carousel_actions_name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #9CA4AB;
+}

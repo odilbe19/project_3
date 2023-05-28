@@ -1,0 +1,75 @@
+.episodes-component {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;
+}
+
+.episodes-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1040px;
+}
+
+.episodes-header_title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.005em;
+    color: #F9F9F9;
+}
+
+.episodes-header_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 16px;
+    gap: 10px;
+    height: 30px;
+    border: 1px solid #28262D;
+    border-radius: 8px;
+}
+
+.episodes-header_btn span {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.episodes-streamlist {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.episodes-streamlist-item1 {
+    background-image: url('../../assets//images/Image\ \(24\).png');
+    border-radius: 16px;
+    background-size: cover;
+    object-fit: cover;
+    width: 301px;
+    height: 197px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.episodes-streamlist-item1:nth-child(2){
+    background-image: url('../../assets//images/Image\ \(25\).png');
+}
+
+.episodes-streamlist-item1:nth-child(3){
+    background-image: url('../../assets//images/Image\ \(26\).png');
+}
+
+.episodes-streamlist-item1:last-child{
+    background-image: url('../../assets//images/Image\ \(27\).png');
+}

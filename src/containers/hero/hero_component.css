@@ -1,0 +1,5 @@
+.hero_component {
+    display: flex;
+    flex-direction: column;
+    gap: 281px;
+}
