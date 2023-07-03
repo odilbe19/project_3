@@ -1,0 +1,23 @@
+.Partners_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 16px;
+    margin: 1px 0 0 48px;
+}
+
+.Partners_container_card {
+    width: 177px;
+    height: 88px;
+    background-color: #0D0C0F;
+    border: 1px solid #0D0C0F;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.Partners_container_card img{
+    align-items: center;
+    margin: 0 auto;
+}

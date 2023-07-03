@@ -1,10 +1,10 @@
-import React from "react";
-import "./your_watchlist_component.css";
-import img1 from '../../assets/images/Image (10).png'
-import img2 from '../../assets/images/Image (11).png'
-import img3 from '../../assets/images/Image (12).png'
-import img4 from '../../assets/images/Image (13).png'
-import img5 from '../../assets/images/Image (14).png'
+import React from 'react'
+import '../your_watchlist/your_watchlist_component.css'
+import img1_likes from '../../assets/images/Image (15).png'
+import img2_likes from '../../assets/images/Image (16).png'
+import img3_likes from '../../assets/images/Image (17).png'
+import img4_likes from '../../assets/images/Image (18).png'
+import img5_likes from '../../assets/images/Image (19).png'
 
 const iconStart = (
   <svg
@@ -21,9 +21,10 @@ const iconStart = (
   </svg>
 );
 
-export default function YourWatchlistComponent({ data }) {
+export default function YourLikesComponent({ data }) {
   return (
     <div className="your_watchlist_component">
+      <h1 className="your_watchlist_component_title_h1">Your Likes</h1>
       <div className="your_watchlist_component_list">
         {
           data.map(item => {
@@ -32,7 +33,7 @@ export default function YourWatchlistComponent({ data }) {
                 <img src={item.img_url} alt="photo" />
                 <h3 className="your_watchlist_component_list_item_title">{item.title}</h3>
                 <div className="popular_components_movielist_item_title_desc_stars">
-                  <span>{iconStart}</span> <h3>{item.star}</h3> <h4>{`| ${item.type} `}</h4>
+                  <span>{iconStart}</span> <h3>{item.star}</h3> <h4>{`| ${item.type}`}</h4>
                 </div>
               </div>
             )
@@ -40,5 +41,5 @@ export default function YourWatchlistComponent({ data }) {
         }
       </div>
     </div>
-  );
+  )
 }

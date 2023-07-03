@@ -1,7 +1,7 @@
 import React from 'react'
 import './just_reliase_container.css'
 
-export default function JustReliaseContainer() {
+export default function JustReliaseContainer({ data }) {
   const iconStart = (
     <svg
       width="19"
@@ -16,64 +16,30 @@ export default function JustReliaseContainer() {
       />
     </svg>
   );
-  
+
   return (
     <div className='just_reliase_container'>
-        <div className="just_reliase_component">
-      <h1 className="just_reliase_component_h1">Just Release</h1>
-      <div className="just_reliase_component_carousel">
-        <div className="just_reliase_component_item">
-          <div className="just_reliase_component_item_desc">
-            <h4 className="just_reliase_component_item_desc_title">
-              Dungeon & Dragons; Honor <br /> Among Thief
-            </h4>
-            <div className="popular_components_movielist_item_title_desc_stars">
-              <span>{iconStart}</span> <h3>4.3</h3> <h4>| Mystery • Movie</h4>
-            </div>
-          </div>
-        </div>
-        <div className="just_reliase_component_item">
-          <div className="just_reliase_component_item_desc">
-            <h4 className="just_reliase_component_item_desc_title">Barbie</h4>
-            <div className="popular_components_movielist_item_title_desc_stars">
-              <span>{iconStart}</span> <h3>4.3</h3>{" "}
-              <h4>| Season 1 • Action • Drama </h4>
-            </div>
-          </div>
-        </div>
-        <div className="just_reliase_component_item">
-          <div className="just_reliase_component_item_desc">
-            <h4 className="just_reliase_component_item_desc_title">
-              The Super Mario Bros Movie
-            </h4>
-            <div className="popular_components_movielist_item_title_desc_stars">
-              <span>{iconStart}</span> <h3>4.3</h3>{" "}
-              <h4>The Super Mario Bros Movie</h4>
-            </div>
-          </div>
-        </div>
-        <div className="just_reliase_component_item">
-          <div className="just_reliase_component_item_desc">
-            <h4 className="just_reliase_component_item_desc_title">
-              Satan’s slaves
-            </h4>
-            <div className="popular_components_movielist_item_title_desc_stars">
-              <span>{iconStart}</span> <h3>4.3</h3> <h4>| Horror • Movie</h4>
-            </div>
-          </div>
-        </div>
-        <div className="just_reliase_component_item">
-          <div className="just_reliase_component_item_desc">
-            <h4 className="just_reliase_component_item_desc_title">
-              Enola Holmes 2
-            </h4>
-            <div className="popular_components_movielist_item_title_desc_stars">
-              <span>{iconStart}</span> <h3>4.3</h3> <h4>| Action • Movie</h4>
-            </div>
-          </div>
+      <div className="just_reliase_component">
+        <h1 className="just_reliase_component_h1">Just Release</h1>
+        <div className="just_reliase_component_carousel">
+          {
+            data.map(item => {
+              return (
+                <div key={item.id} className="just_reliase_component_item">
+                  <div className="just_reliase_component_item_desc">
+                    <h4 className="just_reliase_component_item_desc_title">
+                      {item.title}
+                    </h4>
+                    <div className="popular_components_movielist_item_title_desc_stars">
+                      <span>{iconStart}</span> <h3>4.3</h3> <h4>| Mystery • Movie</h4>
+                    </div>
+                  </div>
+                </div>
+              )
+            })
+          }
         </div>
       </div>
-    </div>
     </div>
   )
 }

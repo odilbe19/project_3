@@ -4,6 +4,7 @@
     align-items: start;
     justify-content: start;
     gap: 25px;
+    margin: 27px 0 0 20px;
 }
 
 .continue-watching_components h1 {
@@ -20,12 +21,12 @@
     height: 312px;
     display: flex;
     justify-content: start;
-    gap: 18px;
+    gap: 16px;
 }
 
 .continue-watching_components_streamlist_item {
     background-image: url('../../assets//images//Image\ \(20\).png');
-    Width: 420px;
+    Width: 425px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,6 +34,7 @@
     flex-direction: column;
     justify-content: end;
     border-radius: 0px 0px 16px 16px;
+    border-radius: 16px;
 }
 
 .continue-watching_components_streamlist_item:nth-child(2) {
@@ -48,7 +50,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 20px 13px;
+    padding: 20px 10px 19px 19px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 78.02%);
     border-radius: 0px 0px 16px 16px;
     overflow: hidden;

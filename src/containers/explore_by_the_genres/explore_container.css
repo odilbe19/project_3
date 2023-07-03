@@ -1,0 +1,11 @@
+.explore_container {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(82.22deg, rgba(13, 12, 15, 0.9) 36.24%, rgba(13, 12, 15, 0) 58.67%), linear-gradient(180deg, #0D0C0F 0.08%, rgba(13, 12, 15, 0.0416667) 22.17%, rgba(13, 12, 15, 0.0976244) 58.89%, #0D0C0F 100%), url('../../assets//images/Explore\ by\ the\ genres.png');
+   background-repeat: no-repeat;
+   background-position: center;
+    padding: 110px 0px 0px 33px;
+    max-width: 1353px;
+    margin: 0 auto;
+}
+

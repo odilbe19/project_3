@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    padding: 0px 0px 45px 22px;
+    padding: 37px 0px 45px 116px;
     gap: 41px;
     width: 1350px;
     overflow: hidden;
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     gap: 16px;
-
+    margin: -17px 0 0 0;
 }
 
 .just_reliase_component_item {
@@ -86,4 +86,5 @@
     line-height: 24px;
     letter-spacing: 0.005em;
     color: #F9F9F9;
+    padding: 0 0 2px 1px;
 }
